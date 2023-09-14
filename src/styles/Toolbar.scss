@@ -1,0 +1,50 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.toolbar {
+    height: 200px;
+    z-index: 100;
+    .toolbar-dashboard {
+        background-color: #ffffff;
+    }
+    .toolbar-tools {
+        height: 100%;
+    }
+    .toolbar-card {
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+        box-shadow: 0 0 5px #cccccc;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0 0 5px #aaaaaa;
+        }
+        .card-body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .card-title {
+                font-size: 0.8rem;
+                margin: 0;
+                padding: 0;
+            }
+            .card-icon {
+                font-size: 2rem;
+                margin: 0;
+                padding: 0;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

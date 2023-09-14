@@ -1,0 +1,12 @@
+@import '../../node_modules/@arcgis/core/assets/esri/css/main.css';
+
+.map-container, .scene-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}

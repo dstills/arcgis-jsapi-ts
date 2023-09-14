@@ -1,0 +1,15 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.header {
+    position: fixed;
+    top: 2.5%;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background-color: #fff;
+    z-index: 100;
+    border: rgb(0, 255, 0) 1px solid;
+    .navbar-brand { 
+        color:rgb(0, 255, 0)
+    }
+}
